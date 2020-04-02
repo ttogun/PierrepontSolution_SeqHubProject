@@ -13,6 +13,11 @@ UPLOADFOLDER = "resumes"
 
 @app.route('/', methods=['GET'])
 def index():
+    return open('index.html').read()
+
+
+@app.route('/form', methods=['GET'])
+def formPage():
     return open('form.html').read()
 
 
