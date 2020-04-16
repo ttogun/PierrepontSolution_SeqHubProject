@@ -69,8 +69,21 @@
                 </div>
             </div>
         </div>
-		<button class="btn btn-primary" type="submit">Submit form</button>
-	</form>	  
+        <div class = 'form-row'>
+          <div class = "col-md4 mb-3">
+            <h6>Please select which jobs you are interested in doing from the list below:</h6>
+            <input type="checkbox" id="job1" name="job1" value="job1">
+            <label for="vehicle1">Dummy Job 1</label><br>
+            <input type="checkbox" id="job2" name="job2" value="job2">
+            <label for="vehicle1">Dummy Job 2</label><br>
+            <input type="checkbox" id="job3" name="job3" value="job3">
+            <label for="vehicle1">Dummy Job 3</label><br>
+            <input type="checkbox" id="job4" name="job1" value="job4">
+            <label for="vehicle1">Dummy Job 4</label><br>
+            <input type="checkbox" id="job5" name="job5" value="job5">
+            <label for="vehicle1">Dummy Job 5</label><br>
+		        <button class="btn btn-primary" type="submit">Submit form</button>
+	</form>
 	<script>
 		// Example starter JavaScript for disabling form submissions if there are invalid fields
 		(function() {
@@ -87,7 +100,7 @@
 			            }
 		            form.classList.add('was-validated');
 		            }, false);
-		        });			    
+		        });
             }, false);
 		})();
 	</script>
